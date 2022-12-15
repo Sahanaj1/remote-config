@@ -7,13 +7,7 @@ import { useState,useEffect } from 'react';
 
 
 const firebaseConfig = {
-  apiKey: "AIzaSyBsxxOV0D8RNNxsc6DZUEL2KCfZ6ZgjEtU",
-  authDomain: "remote-config-4709d.firebaseapp.com",
-  projectId: "remote-config-4709d",
-  storageBucket: "remote-config-4709d.appspot.com",
-  messagingSenderId: "628669430412",
-  appId: "1:628669430412:web:f92efe8910634aa454d9a9",
-  measurementId: "G-23KVN64PKM"
+  // your firebase keys
 };
 
 const app = initializeApp(firebaseConfig);
